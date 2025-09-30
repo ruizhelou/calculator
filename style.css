@@ -1,0 +1,89 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    width: 300px;
+    height: 400px;
+    border-style: solid;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: DimGray;
+}
+
+.display {
+    margin: 10px;
+    flex: 1;
+    border-style: solid;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.buttons {
+    margin: 10px;
+    flex: 4;
+    display: flex;
+}
+
+/* Left side of the calculator */
+
+.digits {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.digits .row {
+    display: flex;
+    flex: 1;
+}
+
+.digit {
+    flex: 1;
+    text-align: center;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+    color: black;
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+/* Right side of the calculator */
+
+.operators {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.operator {
+    flex: 1;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #B0C4DE;
+    color: black;
+    font-size: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+}
