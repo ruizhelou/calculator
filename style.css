@@ -39,6 +39,10 @@ body {
     display: flex;
 }
 
+.button:hover {
+    background-color: bisque;
+}
+
 /* Left side of the calculator */
 
 .digits {
@@ -75,7 +79,7 @@ body {
     flex-direction: column;
 }
 
-.operator {
+.operator, .clear, .equals {
     flex: 1;
     margin: 2px;
     display: flex;
@@ -86,4 +90,8 @@ body {
     color: black;
     font-size: 30px;
     font-family: "Pixelify Sans", sans-serif;
+}
+
+.clear {
+    background-color: darkorange;
 }
